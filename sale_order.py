@@ -2,11 +2,9 @@
 from openerp import models, fields, api, _
 from openerp.exceptions import except_orm
 import math
-import openerp.addons.decimal_precision as dp
 from openerp import SUPERUSER_ID
 from datetime import datetime, timedelta
-from openerp.tools import DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FORMAT
-
+from openerp.tools import DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FORMAT  
 
     
 class sale_order(models.Model):
